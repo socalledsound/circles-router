@@ -7,19 +7,27 @@ const Header = () => {
             <NavLink
                 className={styles.headerLink}
                 to='/'
-            >home page</NavLink>
+            >home page
+            </NavLink>
             <NavLink 
                 className={styles.headerLink}
                 to='/about'
-            >about page</NavLink>
-            <NavLink 
+            >about page
+            </NavLink>
+            <NavLink
+                className={styles.headerLink}
+                to='/circles'
+            >
+            circles page
+            </NavLink>
+            {/* <NavLink 
                 className={styles.headerLink}
                 to='/circles/0'
             >to circle circles</NavLink>
                        <NavLink 
                 className={styles.headerLink}
                 to='/circles/1'
-            >to line circles</NavLink>
+            >to line circles</NavLink> */}
         </div>
      );
 }
