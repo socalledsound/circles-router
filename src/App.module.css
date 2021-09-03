@@ -1,0 +1,46 @@
+.bg{
+    margin: 0;
+    padding: 0;
+    background-color: rosybrown;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    height: 4rem;
+    width: 100vw;
+    background-color: royalblue;
+    
+}
+
+.headerLink{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+
+.circle{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    background-color: red;
+    position: absolute;
+}
+
+.buttonsRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+
+.chooseMathButton{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1.2rem;
+    color: white;
+    background-color: violet;
+    margin-right: 1rem;
+}
